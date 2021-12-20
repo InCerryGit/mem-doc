@@ -2,6 +2,7 @@
 <strong><a href="README.md">English</a> | <a href="README.zh-CN.md">简体中文</a>
 </div>
 
+
 # mem-doc
 多年来，我与很多客户合作，帮助他们分析GC堆相关的性能问题。尽管性能问题经常有很大的不同，但有足够多的相似之处，我认为值得写一份指导性的文件，让人们在正确的道路上开始有效地进行.NET内存性能分析，或者给那些在性能方面已经有相当经验的人提供更多的知识和工具，使他们的工作更容易。
 
@@ -17,12 +18,12 @@
 
 我还把我做过的讲座的幻灯片和视频录制链接放在这个 repo 中。一般来说，当我做讲座时，我倾向于谈论那些不容易在其他地方找到的东西。目前包括以下会谈 -
 
-2021年内部演讲--"一个.NET对象--从分配到收集"（讲述了一个.NET对象的内存是如何获得的，一直到硬件层。由于我正在处理许多与内存有关的事情--硬件、操作系统和GC--我必须保持非常高的水平）。[幻灯片](./presentation/ObjectJourney.pptx)
+2021年内部演讲 - "一个.NET对象 - 从分配到收集"（讲述了一个.NET对象的内存是如何获得的，一直到硬件层。由于我正在处理许多与内存有关的事情 - 硬件、操作系统和GC - 我必须保持非常高的水平）。[幻灯片](./presentation/ObjectJourney.pptx)
 
-2020年dotnext讲座--".NET 5.0 GC的新特性"（关于5.0新特性的简短高层讲座）。[幻灯片](./presentation/dotnext2020-new-in-5-GC.pptx)
+2020年dotnext讲座 - ".NET 5.0 GC的新特性"（关于5.0新特性的简短概览性的讲座）。[幻灯片](./presentation/dotnext2020-new-in-5-GC.pptx)
 
 2020年dotnetos讲座 - "Pinning有什么难的"（关于如何处理Pinning的深入讲座）。[幻灯片](./presentation/dotnetos2020-Pinning.pptx), [视频](https://www.youtube.com/watch?v=troNdmHEu2g)
 
-2019年布拉格聚会讲座--".NET Core 3.0 GC中的新内容"（关于3.0中新功能的相当详细的讲座）。[幻灯片](./presentation/PragueMeetup2019.pptx), [视频](https://www.youtube.com/watch?v=m4fddMZDceQ)
+2019年Prague meetup讲座 - ".NET Core 3.0 GC中的新内容"（关于3.0中新功能的相当详细的讲座）。[幻灯片](./presentation/PragueMeetup2019.pptx), [视频](https://www.youtube.com/watch?v=m4fddMZDceQ)
 
 谢谢你，我希望这些材料对你有帮助。
